@@ -78,4 +78,4 @@ _yarn ()
 
 }
 
-compdef _yarn yarn
+compdef _yarn yarnpkg yarn
