@@ -1,4 +1,4 @@
-alias yi="yarn install"
+# https://yarnpkg.com/en/docs/cli/
 
 _yarn ()
 {
@@ -77,5 +77,22 @@ _yarn ()
     esac
 
 }
+
+
+# Aliases
+
+alias ya="yarn add"
+alias yad="yarn add -D"
+alias yap="yarn add -P"
+alias ycc="yarn cache clean"
+alias ygu="yarn global upgrade"
+alias yi="yarn install"
+alias yls="yarn list"
+alias yrm="yarn remove"
+alias yrun="yarn run"
+alias yt="yarn test"
+alias yu="yarn upgrade"
+alias yuc="ygu && ycc"
+alias yup="yarn upgrade"
 
 compdef _yarn yarnpkg yarn
